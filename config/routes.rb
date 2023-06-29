@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
 
+  get 'users/new'
+  get 'users/create'
+  get '/signup' => 'users#new'
+  post '/users' => 'users#create'
+  
   namespace :admin do
     get 'categories/index'
     get 'categories/new'
