@@ -111,3 +111,13 @@ form.button_to {
 .text-danger {
   color: #f38792 !important;
 }
+
+.user-log {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .btn {
+    margin: 1em;
+  }
+}

@@ -14,6 +14,14 @@
   <%= render 'layouts/top_nav' %>
 
   <main class="container">
+  <section class="user-log">
+    <% if current_user %>
+    Signed in as <%= current_user.first_name %> <%= link_to "Logout", '/logout', class: 'btn btn-danger' %>
+    <% else %>
+    <%= link_to 'Login', '/login', class: 'btn btn-primary' %> <%= link_to 'Signup', '/signup', class: 'btn btn-success' %>
+    <% end %>
+  </section>
+
     <%= yield %>
   </main>
 
