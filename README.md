@@ -2,6 +2,18 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+This project was built upon from a Lighthouse Labs project foundation to practice using MVC workflow with Ruby on Rails.
+
+A user can add items that are in stock to their cart, checkout with Stripe, and then see order details after payment has processed. Admin users can login to the dashboard where they can product categories or products themselves using the forms.
+
+## Screenshots
+
+[Jungle homepage](docs/jungle-homepage.png)
+[Jungle admin dashboard](docs/jungle-admin-dashboard.png)
+[Jungle account registration page](docs/jungle-account-registration.png)
+[Jungle item details page](docs/jungle-item-details.png)
+[Jungle order confirmation page](docs/jungle-order-confirmation.png)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
@@ -12,6 +24,7 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
 8. Run `bin/rails s -b 0.0.0.0` to start the server
+9. Visit http://localhost:3000 to view project
 
 ## Database
 
