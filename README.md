@@ -8,11 +8,11 @@ A user can add items that are in stock to their cart, checkout with Stripe, and 
 
 ## Screenshots
 
-[Jungle homepage](docs/jungle-homepage.png)
-[Jungle admin dashboard](docs/jungle-admin-dashboard.png)
-[Jungle account registration page](docs/jungle-account-registration.png)
-[Jungle item details page](docs/jungle-item-details.png)
-[Jungle order confirmation page](docs/jungle-order-confirmation.png)
+![Jungle homepage](docs/jungle-homepage.png)
+![Jungle admin dashboard](docs/jungle-admin-dashboard.png)
+![Jungle account registration page](docs/jungle-account-registration.png)
+![Jungle item details page](docs/jungle-item-details.png)
+![Jungle order confirmation page](docs/jungle-order-confirmation.png)
 
 ## Setup
 
